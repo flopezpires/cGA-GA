@@ -1,2 +1,2 @@
 # cGA-GA
-An Experimental Evaluation of compact Genetic Algorithm and Genetic Algorithm
+An Experimental Evaluation for OneMax Problem - compact Genetic Algorithm versus Genetic Algorithm
