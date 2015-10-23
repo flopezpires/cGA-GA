@@ -1,0 +1,50 @@
+ >num_bits=16
+ >population=500
+ > gen 0
+ > gen 1
+ > gen 2
+ > gen 3
+ > gen 4
+ > gen 5
+done! Solution: f=16, s=1111111111111111
+Measure Mode: memory
+Thread ID: 83525660
+Fiber ID: 84758930
+Total: 0.000000
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+   NaN      0.000     0.000     0.000     0.000       12   IO#write
+   NaN      0.000     0.000     0.000     0.000        6   IO#puts
+   NaN      0.000     0.000     0.000     0.000        6   Kernel#puts
+   NaN      0.000     0.000     0.000     0.000        6   Fixnum#to_s
+   NaN      0.000     0.000     0.000     0.000        6   Array#sort!
+   NaN      0.000     0.000     0.000     0.000     3000   Object#point_mutation
+   NaN      0.000     0.000     0.000     0.000     3000   Float#>=
+   NaN      0.000     0.000     0.000     0.000     3000   Object#crossover
+   NaN      0.000     0.000     0.000     0.000     3000   Fixnum#modulo
+   NaN      0.000     0.000     0.000     0.000        6   Enumerable#each_with_index
+   NaN      0.000     0.000     0.000     0.000        6   Object#reproduce
+   NaN      0.000     0.000     0.000     0.000     8957   Kernel#respond_to_missing?
+   NaN      0.000     0.000     0.000     0.000     3000   Object#binary_tournament
+   NaN      0.000     0.000     0.000     0.000       13   Array#first
+   NaN      0.000     0.000     0.000     0.000    11985   Fixnum#<=>
+   NaN      0.000     0.000     0.000     0.000        1   Array#sort
+   NaN      0.000     0.000     0.000     0.000     9500   Hash#[]=
+   NaN      0.000     0.000     0.000     0.000   104000   String#chr
+   NaN      0.000     0.000     0.000     0.000   109902   String#[]
+   NaN      0.000     0.000     0.000     0.000     6501  *Integer#times
+   NaN      0.000     0.000     0.000     0.000     3500   Object#onemax
+   NaN      0.000     0.000     0.000     0.000       13   Array#each
+   NaN      0.000     0.000     0.000     0.000    67957   Kernel#rand
+   NaN      0.000     0.000     0.000     0.000      500   Range#each
+   NaN      0.000     0.000     0.000     0.000      500   Enumerable#inject
+   NaN      0.000     0.000     0.000     0.000     6402   <Class::Range>#allocate
+   NaN      0.000     0.000     0.000     0.000      500   Object#random_bitstring
+   NaN      0.000     0.000     0.000     0.000        7   Array#initialize
+   NaN      0.000     0.000     0.000     0.000        7   <Class::Array>#allocate
+   NaN      0.000     0.000     0.000     0.000        7   Class#new
+   NaN      0.000     0.000     0.000     0.000        1   Object#search
+   NaN      0.000     0.000     0.000     0.000        1   Global#[No method]
+
+* indicates recursively called methods

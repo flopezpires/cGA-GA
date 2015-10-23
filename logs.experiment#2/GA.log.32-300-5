@@ -1,0 +1,59 @@
+ >num_bits=32
+ >population=300
+ > gen 0
+ > gen 1
+ > gen 2
+ > gen 3
+ > gen 4
+ > gen 5
+ > gen 6
+ > gen 7
+ > gen 8
+ > gen 9
+ > gen 10
+ > gen 11
+ > gen 12
+ > gen 13
+ > gen 14
+ > gen 15
+Measure Mode: memory
+Thread ID: 72814570
+Fiber ID: 73573150
+Total: 751.218750
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+ 50.44    378.883   378.883     0.000     0.000    14700   Hash#[]=
+ 20.62    218.934   154.877     0.000    64.057     4800   Object#crossover
+  8.51     63.928    63.928     0.000     0.000   326212   String#[]
+  2.69     28.465    20.234     0.000     8.230       17   Array#initialize
+  0.99      7.543     7.434     0.000     0.109      300   Range#each
+  0.24    751.219     1.777     0.000   749.441        1   Global#[No method]
+  0.21    717.949     1.543     0.000   716.406       33   Array#each
+  0.17      1.391     1.281     0.000     0.109        1   Array#sort
+  0.06      0.441     0.441     0.000     0.000   316800   String#chr
+  0.04      0.438     0.273     0.000     0.164   182328   Kernel#rand
+  0.03    338.371     0.189     0.000   338.182       16   Object#reproduce
+  0.03    749.441     0.189     0.000   749.252        1   Object#search
+  0.02      7.727     0.184     0.000     7.543      300   Enumerable#inject
+  0.02      0.184     0.184     0.000     0.000     4800   Float#>=
+  0.02      0.184     0.184     0.000     0.000     4800   Fixnum#modulo
+  0.02      0.811     0.170     0.000     0.641     5100   Object#onemax
+  0.02    715.479     0.164     0.000   715.314     9901  *Integer#times
+  0.02      0.164     0.164     0.000     0.000    18936   Fixnum#<=>
+  0.02     28.793     0.164     0.000    28.629       17   Class#new
+  0.02      0.164     0.164     0.000     0.000       17   <Class::Array>#allocate
+  0.02      0.164     0.164     0.000     0.000       30   Array#first
+  0.02      0.164     0.164     0.000     0.000     9712   <Class::Range>#allocate
+  0.02      0.164     0.164     0.000     0.000    14328   Kernel#respond_to_missing?
+  0.02    117.596     0.115     0.000   117.480     4800   Object#point_mutation
+  0.02      0.279     0.115     0.000     0.164     4800   Object#binary_tournament
+  0.02      7.951     0.115     0.000     7.836      300   Object#random_bitstring
+  0.01      0.219     0.109     0.000     0.109       16   IO#puts
+  0.01      0.109     0.109     0.000     0.000       16   Fixnum#to_s
+  0.01      0.328     0.109     0.000     0.219       16   Kernel#puts
+  0.01      0.164     0.109     0.000     0.055       16   Array#sort!
+  0.01    338.182     0.109     0.000   338.072       16   Enumerable#each_with_index
+  0.01      0.109     0.109     0.000     0.000       32   IO#write
+
+* indicates recursively called methods

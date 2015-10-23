@@ -1,0 +1,360 @@
+ >num_bits=512
+ >population=200
+ > gen 0
+ > gen 1
+ > gen 2
+ > gen 3
+ > gen 4
+ > gen 5
+ > gen 6
+ > gen 7
+ > gen 8
+ > gen 9
+ > gen 10
+ > gen 11
+ > gen 12
+ > gen 13
+ > gen 14
+ > gen 15
+ > gen 16
+ > gen 17
+ > gen 18
+ > gen 19
+ > gen 20
+ > gen 21
+ > gen 22
+ > gen 23
+ > gen 24
+ > gen 25
+ > gen 26
+ > gen 27
+ > gen 28
+ > gen 29
+ > gen 30
+ > gen 31
+ > gen 32
+ > gen 33
+ > gen 34
+ > gen 35
+ > gen 36
+ > gen 37
+ > gen 38
+ > gen 39
+ > gen 40
+ > gen 41
+ > gen 42
+ > gen 43
+ > gen 44
+ > gen 45
+ > gen 46
+ > gen 47
+ > gen 48
+ > gen 49
+ > gen 50
+ > gen 51
+ > gen 52
+ > gen 53
+ > gen 54
+ > gen 55
+ > gen 56
+ > gen 57
+ > gen 58
+ > gen 59
+ > gen 60
+ > gen 61
+ > gen 62
+ > gen 63
+ > gen 64
+ > gen 65
+ > gen 66
+ > gen 67
+ > gen 68
+ > gen 69
+ > gen 70
+ > gen 71
+ > gen 72
+ > gen 73
+ > gen 74
+ > gen 75
+ > gen 76
+ > gen 77
+ > gen 78
+ > gen 79
+ > gen 80
+ > gen 81
+ > gen 82
+ > gen 83
+ > gen 84
+ > gen 85
+ > gen 86
+ > gen 87
+ > gen 88
+ > gen 89
+ > gen 90
+ > gen 91
+ > gen 92
+ > gen 93
+ > gen 94
+ > gen 95
+ > gen 96
+ > gen 97
+ > gen 98
+ > gen 99
+ > gen 100
+ > gen 101
+ > gen 102
+ > gen 103
+ > gen 104
+ > gen 105
+ > gen 106
+ > gen 107
+ > gen 108
+ > gen 109
+ > gen 110
+ > gen 111
+ > gen 112
+ > gen 113
+ > gen 114
+ > gen 115
+ > gen 116
+ > gen 117
+ > gen 118
+ > gen 119
+ > gen 120
+ > gen 121
+ > gen 122
+ > gen 123
+ > gen 124
+ > gen 125
+ > gen 126
+ > gen 127
+ > gen 128
+ > gen 129
+ > gen 130
+ > gen 131
+ > gen 132
+ > gen 133
+ > gen 134
+ > gen 135
+ > gen 136
+ > gen 137
+ > gen 138
+ > gen 139
+ > gen 140
+ > gen 141
+ > gen 142
+ > gen 143
+ > gen 144
+ > gen 145
+ > gen 146
+ > gen 147
+ > gen 148
+ > gen 149
+ > gen 150
+ > gen 151
+ > gen 152
+ > gen 153
+ > gen 154
+ > gen 155
+ > gen 156
+ > gen 157
+ > gen 158
+ > gen 159
+ > gen 160
+ > gen 161
+ > gen 162
+ > gen 163
+ > gen 164
+ > gen 165
+ > gen 166
+ > gen 167
+ > gen 168
+ > gen 169
+ > gen 170
+ > gen 171
+ > gen 172
+ > gen 173
+ > gen 174
+ > gen 175
+ > gen 176
+ > gen 177
+ > gen 178
+ > gen 179
+ > gen 180
+ > gen 181
+ > gen 182
+ > gen 183
+ > gen 184
+ > gen 185
+ > gen 186
+ > gen 187
+ > gen 188
+ > gen 189
+ > gen 190
+ > gen 191
+ > gen 192
+ > gen 193
+ > gen 194
+ > gen 195
+ > gen 196
+ > gen 197
+ > gen 198
+ > gen 199
+ > gen 200
+ > gen 201
+ > gen 202
+ > gen 203
+ > gen 204
+ > gen 205
+ > gen 206
+ > gen 207
+ > gen 208
+ > gen 209
+ > gen 210
+ > gen 211
+ > gen 212
+ > gen 213
+ > gen 214
+ > gen 215
+ > gen 216
+ > gen 217
+ > gen 218
+ > gen 219
+ > gen 220
+ > gen 221
+ > gen 222
+ > gen 223
+ > gen 224
+ > gen 225
+ > gen 226
+ > gen 227
+ > gen 228
+ > gen 229
+ > gen 230
+ > gen 231
+ > gen 232
+ > gen 233
+ > gen 234
+ > gen 235
+ > gen 236
+ > gen 237
+ > gen 238
+ > gen 239
+ > gen 240
+ > gen 241
+ > gen 242
+ > gen 243
+ > gen 244
+ > gen 245
+ > gen 246
+ > gen 247
+ > gen 248
+ > gen 249
+ > gen 250
+ > gen 251
+ > gen 252
+ > gen 253
+ > gen 254
+ > gen 255
+ > gen 256
+ > gen 257
+ > gen 258
+ > gen 259
+ > gen 260
+ > gen 261
+ > gen 262
+ > gen 263
+ > gen 264
+ > gen 265
+ > gen 266
+ > gen 267
+ > gen 268
+ > gen 269
+ > gen 270
+ > gen 271
+ > gen 272
+ > gen 273
+ > gen 274
+ > gen 275
+ > gen 276
+ > gen 277
+ > gen 278
+ > gen 279
+ > gen 280
+ > gen 281
+ > gen 282
+ > gen 283
+ > gen 284
+ > gen 285
+ > gen 286
+ > gen 287
+ > gen 288
+ > gen 289
+ > gen 290
+ > gen 291
+ > gen 292
+ > gen 293
+ > gen 294
+ > gen 295
+ > gen 296
+ > gen 297
+ > gen 298
+ > gen 299
+ > gen 300
+ > gen 301
+ > gen 302
+ > gen 303
+ > gen 304
+ > gen 305
+ > gen 306
+ > gen 307
+ > gen 308
+ > gen 309
+ > gen 310
+ > gen 311
+ > gen 312
+ > gen 313
+ > gen 314
+ > gen 315
+ > gen 316
+Measure Mode: memory
+Thread ID: 80981990
+Fiber ID: 81740620
+Total: 53880.255859
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+ 58.95  47326.311 31762.104     0.000 15564.207    63400   Object#crossover
+ 28.89  15564.078 15564.078     0.000     0.000 65148302   String#[]
+  8.76   4720.680  4720.680     0.000     0.000   190400   Hash#[]=
+  0.46    254.539   248.750     0.000     5.789      318   Array#initialize
+  0.05  53621.303    25.059     0.000 53596.244      635   Array#each
+  0.01      5.102     4.992     0.000     0.109      200   Range#each
+  0.00  53880.256     1.777     0.000 53878.479        1   Global#[No method]
+  0.00      1.000     0.891     0.000     0.109        1   Array#sort
+  0.00      0.441     0.441     0.000     0.000 65024000   String#chr
+  0.00      0.438     0.273     0.000     0.164 32815822   Kernel#rand
+  0.00  48899.928     0.189     0.000 48899.738      317   Object#reproduce
+  0.00  53878.479     0.189     0.000 53878.289        1   Object#search
+  0.00      5.285     0.184     0.000     5.102      200   Enumerable#inject
+  0.00      0.184     0.184     0.000     0.000    63400   Float#>=
+  0.00      0.184     0.184     0.000     0.000    63400   Fixnum#modulo
+  0.00      0.811     0.170     0.000     0.641    63600   Object#onemax
+  0.00  53855.160     0.164     0.000 53854.996   127001  *Integer#times
+  0.00      0.164     0.164     0.000     0.000   260688   Fixnum#<=>
+  0.00    254.867     0.164     0.000   254.703      318   Class#new
+  0.00      0.164     0.164     0.000     0.000      318   <Class::Array>#allocate
+  0.00      0.164     0.164     0.000     0.000      532   Array#first
+  0.00      0.164     0.164     0.000     0.000   124502   <Class::Range>#allocate
+  0.00      0.164     0.164     0.000     0.000   189222   Kernel#respond_to_missing?
+  0.00   1548.260     0.115     0.000  1548.145    63400   Object#point_mutation
+  0.00      0.279     0.115     0.000     0.164    63400   Object#binary_tournament
+  0.00      5.510     0.115     0.000     5.395      200   Object#random_bitstring
+  0.00      0.219     0.109     0.000     0.109      317   IO#puts
+  0.00      0.109     0.109     0.000     0.000      317   Fixnum#to_s
+  0.00      0.328     0.109     0.000     0.219      317   Kernel#puts
+  0.00      0.164     0.109     0.000     0.055      317   Array#sort!
+  0.00  48899.738     0.109     0.000 48899.629      317   Enumerable#each_with_index
+  0.00      0.109     0.109     0.000     0.000      634   IO#write
+
+* indicates recursively called methods

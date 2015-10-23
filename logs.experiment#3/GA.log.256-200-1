@@ -1,0 +1,185 @@
+ >num_bits=256
+ >population=200
+ > gen 0
+ > gen 1
+ > gen 2
+ > gen 3
+ > gen 4
+ > gen 5
+ > gen 6
+ > gen 7
+ > gen 8
+ > gen 9
+ > gen 10
+ > gen 11
+ > gen 12
+ > gen 13
+ > gen 14
+ > gen 15
+ > gen 16
+ > gen 17
+ > gen 18
+ > gen 19
+ > gen 20
+ > gen 21
+ > gen 22
+ > gen 23
+ > gen 24
+ > gen 25
+ > gen 26
+ > gen 27
+ > gen 28
+ > gen 29
+ > gen 30
+ > gen 31
+ > gen 32
+ > gen 33
+ > gen 34
+ > gen 35
+ > gen 36
+ > gen 37
+ > gen 38
+ > gen 39
+ > gen 40
+ > gen 41
+ > gen 42
+ > gen 43
+ > gen 44
+ > gen 45
+ > gen 46
+ > gen 47
+ > gen 48
+ > gen 49
+ > gen 50
+ > gen 51
+ > gen 52
+ > gen 53
+ > gen 54
+ > gen 55
+ > gen 56
+ > gen 57
+ > gen 58
+ > gen 59
+ > gen 60
+ > gen 61
+ > gen 62
+ > gen 63
+ > gen 64
+ > gen 65
+ > gen 66
+ > gen 67
+ > gen 68
+ > gen 69
+ > gen 70
+ > gen 71
+ > gen 72
+ > gen 73
+ > gen 74
+ > gen 75
+ > gen 76
+ > gen 77
+ > gen 78
+ > gen 79
+ > gen 80
+ > gen 81
+ > gen 82
+ > gen 83
+ > gen 84
+ > gen 85
+ > gen 86
+ > gen 87
+ > gen 88
+ > gen 89
+ > gen 90
+ > gen 91
+ > gen 92
+ > gen 93
+ > gen 94
+ > gen 95
+ > gen 96
+ > gen 97
+ > gen 98
+ > gen 99
+ > gen 100
+ > gen 101
+ > gen 102
+ > gen 103
+ > gen 104
+ > gen 105
+ > gen 106
+ > gen 107
+ > gen 108
+ > gen 109
+ > gen 110
+ > gen 111
+ > gen 112
+ > gen 113
+ > gen 114
+ > gen 115
+ > gen 116
+ > gen 117
+ > gen 118
+ > gen 119
+ > gen 120
+ > gen 121
+ > gen 122
+ > gen 123
+ > gen 124
+ > gen 125
+ > gen 126
+ > gen 127
+ > gen 128
+ > gen 129
+ > gen 130
+ > gen 131
+ > gen 132
+ > gen 133
+ > gen 134
+ > gen 135
+ > gen 136
+ > gen 137
+ > gen 138
+ > gen 139
+ > gen 140
+ > gen 141
+ > gen 142
+done! Solution: f=256, s=1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Measure Mode: cpu_time
+Thread ID: 77604880
+Fiber ID: 78403440
+Total: 115.012000
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+ 15.16     17.440    17.440     0.000     0.000 14750398   String#[]
+ 14.51     16.692    16.692     0.000     0.000 14694400   String#chr
+  7.65      8.876     8.796     0.000     0.080  7486727   Kernel#rand
+  0.42    113.900     0.484     0.000   113.416      287   Array#each
+  0.35      0.708     0.404     0.000     0.304    28600   Object#crossover
+  0.25      0.384     0.292     0.000     0.092      143   Array#sort!
+  0.18      0.364     0.204     0.000     0.160    28600   Object#binary_tournament
+  0.16      0.260     0.184     0.000     0.076      200   Range#each
+  0.13    114.740     0.144     0.000   114.596    57401  *Integer#times
+  0.11     73.580     0.132     0.000    73.448    28600   Object#point_mutation
+  0.11     38.984     0.124     0.000    38.860    28800   Object#onemax
+  0.10      0.120     0.120     0.000     0.000    86000   Hash#[]=
+  0.08      0.092     0.092     0.000     0.000   119945   Fixnum#<=>
+  0.07      0.712     0.084     0.000     0.628      144   Array#initialize
+  0.07      0.080     0.080     0.000     0.000    85327   Kernel#respond_to_missing?
+  0.07      0.076     0.076     0.000     0.000    56198   <Class::Range>#allocate
+  0.02      0.028     0.028     0.000     0.000    28600   Float#>=
+  0.02      0.024     0.024     0.000     0.000    28600   Fixnum#modulo
+  0.00     74.812     0.004     0.000    74.808      143   Object#reproduce
+  0.00      0.004     0.004     0.000     0.000      143   Kernel#puts
+  0.00      0.004     0.004     0.000     0.000        1   Array#sort
+  0.00      0.000     0.000     0.000     0.000      286   IO#write
+  0.00      0.000     0.000     0.000     0.000      246   Array#first
+  0.00     74.808     0.000     0.000    74.808      143   Enumerable#each_with_index
+  0.00      0.260     0.000     0.000     0.260      200   Enumerable#inject
+  0.00      0.000     0.000     0.000     0.000      143   Fixnum#to_s
+  0.00      0.712     0.000     0.000     0.712      144   Class#new
+  0.00      0.000     0.000     0.000     0.000      143   IO#puts
+  0.00      0.000     0.000     0.000     0.000      144   <Class::Array>#allocate
+  0.00      0.264     0.000     0.000     0.264      200   Object#random_bitstring
+
+* indicates recursively called methods

@@ -1,0 +1,167 @@
+ >num_bits=256
+ >population=200
+ > gen 0
+ > gen 1
+ > gen 2
+ > gen 3
+ > gen 4
+ > gen 5
+ > gen 6
+ > gen 7
+ > gen 8
+ > gen 9
+ > gen 10
+ > gen 11
+ > gen 12
+ > gen 13
+ > gen 14
+ > gen 15
+ > gen 16
+ > gen 17
+ > gen 18
+ > gen 19
+ > gen 20
+ > gen 21
+ > gen 22
+ > gen 23
+ > gen 24
+ > gen 25
+ > gen 26
+ > gen 27
+ > gen 28
+ > gen 29
+ > gen 30
+ > gen 31
+ > gen 32
+ > gen 33
+ > gen 34
+ > gen 35
+ > gen 36
+ > gen 37
+ > gen 38
+ > gen 39
+ > gen 40
+ > gen 41
+ > gen 42
+ > gen 43
+ > gen 44
+ > gen 45
+ > gen 46
+ > gen 47
+ > gen 48
+ > gen 49
+ > gen 50
+ > gen 51
+ > gen 52
+ > gen 53
+ > gen 54
+ > gen 55
+ > gen 56
+ > gen 57
+ > gen 58
+ > gen 59
+ > gen 60
+ > gen 61
+ > gen 62
+ > gen 63
+ > gen 64
+ > gen 65
+ > gen 66
+ > gen 67
+ > gen 68
+ > gen 69
+ > gen 70
+ > gen 71
+ > gen 72
+ > gen 73
+ > gen 74
+ > gen 75
+ > gen 76
+ > gen 77
+ > gen 78
+ > gen 79
+ > gen 80
+ > gen 81
+ > gen 82
+ > gen 83
+ > gen 84
+ > gen 85
+ > gen 86
+ > gen 87
+ > gen 88
+ > gen 89
+ > gen 90
+ > gen 91
+ > gen 92
+ > gen 93
+ > gen 94
+ > gen 95
+ > gen 96
+ > gen 97
+ > gen 98
+ > gen 99
+ > gen 100
+ > gen 101
+ > gen 102
+ > gen 103
+ > gen 104
+ > gen 105
+ > gen 106
+ > gen 107
+ > gen 108
+ > gen 109
+ > gen 110
+ > gen 111
+ > gen 112
+ > gen 113
+ > gen 114
+ > gen 115
+ > gen 116
+ > gen 117
+ > gen 118
+ > gen 119
+ > gen 120
+ > gen 121
+ > gen 122
+ > gen 123
+ > gen 124
+done! Solution: f=256, s=1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Measure Mode: cpu_time
+Thread ID: 75544580
+Fiber ID: 76566640
+Total: 100.608000
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+ 15.09     15.180    15.180     0.000     0.000 12900216   String#[]
+ 14.16     14.244    14.244     0.000     0.000 12851200   String#chr
+  7.61      7.748     7.656     0.000     0.092  6550823   Kernel#rand
+  0.36     99.636     0.360     0.000    99.276      251   Array#each
+  0.33      0.628     0.336     0.000     0.292    25000   Object#crossover
+  0.23      0.304     0.228     0.000     0.076      125   Array#sort!
+  0.22      0.260     0.220     0.000     0.040      200   Range#each
+  0.21      0.356     0.216     0.000     0.140    25000   Object#binary_tournament
+  0.16     34.120     0.156     0.000    33.964    25200   Object#onemax
+  0.16    100.344     0.156     0.000   100.188    50201  *Integer#times
+  0.13     64.376     0.132     0.000    64.244    25000   Object#point_mutation
+  0.12      0.124     0.124     0.000     0.000    75200   Hash#[]=
+  0.09      0.092     0.092     0.000     0.000    74623   Kernel#respond_to_missing?
+  0.08      0.076     0.076     0.000     0.000   106979   Fixnum#<=>
+  0.06      0.060     0.060     0.000     0.000    49216   <Class::Range>#allocate
+  0.05      0.668     0.052     0.000     0.616      126   Array#initialize
+  0.03      0.028     0.028     0.000     0.000    25000   Fixnum#modulo
+  0.02      0.020     0.020     0.000     0.000    25000   Float#>=
+  0.00      0.000     0.000     0.000     0.000      250   IO#write
+  0.00      0.668     0.000     0.000     0.668      126   Class#new
+  0.00      0.000     0.000     0.000     0.000      224   Array#first
+  0.00     65.428     0.000     0.000    65.428      125   Object#reproduce
+  0.00     65.428     0.000     0.000    65.428      125   Enumerable#each_with_index
+  0.00      0.000     0.000     0.000     0.000      125   Fixnum#to_s
+  0.00      0.260     0.000     0.000     0.260      200   Enumerable#inject
+  0.00      0.000     0.000     0.000     0.000      125   Kernel#puts
+  0.00      0.260     0.000     0.000     0.260      200   Object#random_bitstring
+  0.00      0.000     0.000     0.000     0.000      125   IO#puts
+  0.00      0.000     0.000     0.000     0.000      126   <Class::Array>#allocate
+  0.00      0.000     0.000     0.000     0.000        1   Array#sort
+
+* indicates recursively called methods
